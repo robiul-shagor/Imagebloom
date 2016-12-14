@@ -2,7 +2,7 @@
 Image Bloom is a pure JavaScript library for Quick Image Loading. It's include with preloader effect and blur effect to reduce your page load time; 
 
 ### Demo
-https://robiul-shagor.github.io/Imagebloom/
+https://robiul-shagor.github.io/Imagebloom/imagebloom/
 
 ### How
 
@@ -39,7 +39,7 @@ https://robiul-shagor.github.io/Imagebloom/
 		new imageBloom();
 	</script>
 	```
-7. By default it's give you blur effect. If you want to change it on preloader effect Just do this.
+7. By default it's blur effect for image loading. If you want to change it on preloader effect Just do this.
 
 	```html
 	<script>
@@ -49,11 +49,11 @@ https://robiul-shagor.github.io/Imagebloom/
 		});
 	</script>
 	```
-	add `blurEffect` false and set your image preloader and set `imageSrc: 'YOUR PATH'`. Or you can add any type of image format. We use `svg`. You can use `gif` or any formated Image. Depended on your needs.
+	Add `blurEffect` false to set image loading with preloader and set `imageSrc: 'YOUR GIF OR SVG IMAGE PATH'`. We use `svg`. You can use `gif` or Image AJAX loader. Depended on your needs.
 
 ### Why this?
 
-It's the best way to load an image. No dependencies. Pure JavaScript. Progressive Image Loading with a blur and preloader effect. Reduce the page loading time. Better user experience. Wow.
+It's the best way to load an image. No dependencies. Pure JavaScript. Progressive Image Loading with a blur and preloader effect. It reduce the page loading time. Better user experience. Wow.
 
 
 ### Is Cross Browser Compatibility ?
@@ -61,6 +61,6 @@ It's the best way to load an image. No dependencies. Pure JavaScript. Progressiv
 Image Bloom should (in theory) work in all relevant browsers (ie9+). If not, create an issue! Thanks!
 
 
-### Who Write this?
+### Who Wrote this?
 
-Written by <a href="http://robiul-shagor.github.io/">Robiul Shagor</a>, made better by you.
+Written by <a href="http://robiul-shagor.github.io/">Robiul Shagor</a>, made better for you.
