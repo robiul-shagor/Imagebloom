@@ -4,6 +4,11 @@ Image Bloom is a pure JavaScript library for Quick Image Loading. It's include w
 ### Demo
 https://robiul-shagor.github.io/Imagebloom/imagebloom/
 
+### Google Page Speed Result-
+https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Frobiul-shagor.github.io%2FImagebloom%2Fimagebloom%2F&tab=mobile
+
+Look this no image optimized issue remain. It's best for you and your user.
+
 ### How
 
 1. Link files to your site or application (add `<script>` to bottom of page)
@@ -60,6 +65,10 @@ It's the best way to load an image. No dependencies. Pure JavaScript. Progressiv
 
 Image Bloom should (in theory) work in all relevant browsers (ie9+). If not, create an issue! Thanks!
 
+### Why do this?
+
+There are many image preloader or Progressive loader. But i can not find any best type of image loader. 
+Because many image loader not work correctly. And also some HTML validation error. So that I decided that an image loader needed for both purpose. So i made it.
 
 ### Who Wrote this?
 
