@@ -2,8 +2,8 @@
 Image Bloom is a pure JavaScript library for Quick Image Loading. It's include with preloader effect and blur effect to reduce your page load time; 
 
 ### Demo
-[Blur Effect Demo](https://robiul-shagor.github.io/Imagebloom/imagebloom/).
-[Preloader Effect Demo](https://robiul-shagor.github.io/Imagebloom/imagebloom/).
+[Blur Effect Demo](https://robiul-shagor.github.io/Imagebloom/imagebloom/).<br/>
+[Preloader Effect Demo](https://robiul-shagor.github.io/Imagebloom/imagebloom/?preloader=on).
 
 
 ### Google Page Speed Result-
