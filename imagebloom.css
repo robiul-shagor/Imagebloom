@@ -1,0 +1,73 @@
+/*
+ * Pil v0.1.0
+ *
+ * By Robiul Shagor
+ * http://robiul-shagor.github.io
+ *
+ * Copyright (C) 2017 SoftHopper
+ * MIT License
+ */
+
+ img {
+    max-width: 100%;
+ }
+
+.image-bloom {
+    background: #ddd;
+    position: relative;
+    overflow: hidden;
+}
+
+.blur-loader .image-thumb img {
+    display: block;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+    -webkit-filter: blur(30px);
+    -moz-filter: blur(30px);
+    -o-filter: blur(30px);
+    -ms-filter: blur(30px);
+    filter: blur(40px);
+    filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius='30');
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.image-loader .image-thumb img {
+    width: 50px;
+    opacity: 1;
+    position: absolute;
+    z-index: 11;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.image-thumb.bloom-thumb-loaded img {
+    opacity: 0;
+    transition: opacity 0.40s ease-out;
+    -webkit-transition: opacity 0.40s ease-out;
+}
+
+.bloom-thumb img {
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+    -webkit-transition: opacity 0.3s ease-out;
+    display: block;
+    margin: auto;
+}
+
+.bloom-thumb.bloom-thumb-loaded img {
+    opacity: 1;
+    transition: opacity 0.45s ease-out;
+    -webkit-transition: opacity 0.45s ease-out;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}

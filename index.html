@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Image Bloom - Quick Image Loading Demo</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="imagebloom.css">
+	
+	<style type="text/css">
+	body { padding: 50px 12%; margin: 0; }
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+	</style>
+</head>
+<body>
+
+	<figure class="image-bloom">
+		<div class="image-thumb">	
+			<img src="http://ramble.softhopper.net/lifestyle/wp-content/uploads/2016/05/lifestyle-13-70x60.jpg" data-thumb-url="http://ramble.softhopper.net/lifestyle/wp-content/uploads/2016/05/lifestyle-13.jpg" data-full-width="950" data-full-height="633" alt="">
+		</div><!-- /.image-thumb -->
+	</figure>
+
+	<figure class="image-bloom">
+		<div class="image-thumb">	
+			<img src="http://ramble.softhopper.net/lifestyle/wp-content/uploads/2016/05/lifestyle-12-70x60.jpg" data-thumb-url="http://ramble.softhopper.net/lifestyle/wp-content/uploads/2016/05/lifestyle-12-870x540.jpg" data-full-width="950" data-full-height="633" alt="">
+		</div><!-- /.image-thumb -->
+	</figure>
+
+	<figure class="image-bloom">
+		<div class="image-thumb">	
+			<img src="http://ramble.softhopper.net/lifestyle/wp-content/uploads/2016/05/lifestyle-11-70x60.jpg" data-thumb-url="http://ramble.softhopper.net/lifestyle/wp-content/uploads/2016/05/lifestyle-11.jpg" data-full-width="950" data-full-height="633" alt="">
+		</div><!-- /.image-thumb -->
+	</figure>
+
+	<figure class="image-bloom">
+		<div class="image-thumb">	
+			<img src="http://ramble.softhopper.net/travel/wp-content/uploads/2016/05/ramble-travel-blog-18.jpg-70x60.jpg" data-thumb-url="http://ramble.softhopper.net/travel/wp-content/uploads/2016/05/ramble-travel-blog-18.jpg" data-full-width="950" data-full-height="633" alt="">
+		</div><!-- /.image-thumb -->
+	</figure>
+
+	<figure class="image-bloom">
+		<div class="image-thumb">	
+			<img src="http://ramble.softhopper.net/travel/wp-content/uploads/2016/05/ramble-travel-blog-12.jpg-70x60.jpg" data-thumb-url="http://ramble.softhopper.net/travel/wp-content/uploads/2016/05/ramble-travel-blog-12.jpg" data-full-width="950" data-full-height="633" alt="">
+		</div><!-- /.image-thumb -->
+	</figure>
+
+	<script src="imagebloom.js"></script>
+	<script>
+		new imageBloom({
+		    blurEffect: true,
+		    imageSrc: 'img/rolling.svg'
+		});
+	</script>
+
+</body>
+</html>
