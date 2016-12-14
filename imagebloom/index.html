@@ -51,8 +51,34 @@
 
 	<script src="imagebloom.js"></script>
 	<script>
+		// Don't use this function because it's use only for demo
+		function getUrlParameterForPreloader(sParam) {
+		    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+		        sURLVariables = sPageURL.split('&'),
+		        sParameterName,
+		        i;
+		    for (i = 0; i < sURLVariables.length; i++) {
+		        sParameterName = sURLVariables[i].split('=');
+
+		        if (sParameterName[0] === sParam) {
+		            return sParameterName[1] === undefined ? true : sParameterName[1];
+		        }
+		    }
+		};
+
+		var preloader = getUrlParameterForPreloader('preloader');
+		var effect;
+
+		if ( preloader == "on" ) {
+		    effect = true;
+		} else {
+			effect = false;
+		}
+		// Don't use this function because it's use only for demo
+
+		// main function access
 		new imageBloom({
-		    blurEffect: true,
+		    blurEffect: effect, // This is only demo purpose don't use this effect it use for show demo
 		    imageSrc: 'img/rolling.svg'
 		});
 	</script>
