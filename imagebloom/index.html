@@ -49,7 +49,7 @@
 		</div><!-- /.image-thumb -->
 	</figure>
 
-	<script src="imagebloom.js"></script>
+	<script src="imagebloom.js" defer="defer"></script>
 	<script>
 		// Don't use this function because it's use only for demo
 		function getUrlParameterForPreloader(sParam) {
@@ -75,11 +75,12 @@
 			effect = true;
 		}
 		// Don't use this function because it's use only for demo
-
-		// main function access
-		new imageBloom({
-		    blurEffect: effect, // This is only demo purpose don't use this effect it use for show demo
-		    imageSrc: 'img/rolling.svg'
+		document.addEventListener("DOMContentLoaded", function(event) {
+			// main function access
+			new imageBloom({
+			    blurEffect: effect, // This is only demo purpose don't use this effect it use for show demo
+			    imageSrc: 'img/rolling.svg'
+			});
 		});
 	</script>
 
