@@ -6,15 +6,22 @@
 	<title>Image Bloom - Quick Image Loading Demo</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+		function downloadCSSAtOnload(linkhref) {
+		        var element = document.createElement("link");
+		        element.rel = "stylesheet";
+		        element.href = linkhref;
+		        document.head.appendChild(element);
+		}
+		downloadCSSAtOnload('imagebloom.css');
+	</script>
 
-	<link rel="stylesheet" href="imagebloom.css" media="all">
-	
 	<style type="text/css">
-	body { padding: 50px 12%; margin: 0; }
-	img {
-		max-width: 100%;
-		height: auto;
-	}
+		body { padding: 50px 12%; margin: 0; }
+		img {
+			max-width: 100%;
+			height: auto;
+		}
 	</style>
 </head>
 <body>
@@ -48,7 +55,6 @@
 			<img src="http://ramble.softhopper.net/travel/wp-content/uploads/2016/05/ramble-travel-blog-12-70x60.jpg" data-thumb-url="http://ramble.softhopper.net/travel/wp-content/uploads/2016/05/ramble-travel-blog-12.jpg" data-full-width="950" data-full-height="633" alt="">
 		</div><!-- /.image-thumb -->
 	</figure>
-
 	<script src="imagebloom.js" defer="defer"></script>
 	<script>
 		// Don't use this function because it's use only for demo
