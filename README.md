@@ -67,10 +67,13 @@ It's the best way to load an image. No dependencies. Pure JavaScript. Progressiv
 
 Image Bloom should (in theory) work in all relevant browsers (ie9+). If not, create an issue! Thanks!
 
-### Why do this?
+### Why Image Bloom?
 
-There are many image preloader or Progressive loader. But i can not find any best type of image loader. 
-Because many image loader not work correctly. And also some HTML validation error. So that I decided that an image loader needed for both purpose. So i made it.
+High quality images are strong and heavy media for websites. When your website start loading, Your browser start loading all type of media like images, text , audio together. This increase the loading speed of your website.
+
+Image Bloom create a light version blur image that loads very fast and your reader can watch something on their screen. This makes them satisfied and they start reading your content. When original high quality image loads then preloaded blur version stop its activity. It's also an extra features like preloader. If you not like blur image you can add preloader also.
+
+Using Image Bloom Quick Load Plugins your website loading speed will inrease 2 or 3 time than before. You website will load in second or as faster possible! This increase SEO value as well. 
 
 ### Who Wrote this?
 
