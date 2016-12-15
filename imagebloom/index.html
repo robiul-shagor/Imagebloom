@@ -13,7 +13,7 @@
 		        element.href = linkhref;
 		        document.head.appendChild(element);
 		}
-		downloadCSSAtOnload('imagebloom.css');
+		window.onload = downloadCSSAtOnload('imagebloom.css');
 	</script>
 
 	<style type="text/css">
