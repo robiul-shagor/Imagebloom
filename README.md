@@ -43,7 +43,7 @@ Look this no image optimized issue remain. It's best for you and your user.
 
 	```html
 	<script>
-		new imageBloom();
+		new imageBloom({});
 	</script>
 	```
 7. By default it's blur effect for image loading. If you want to change it on preloader effect Just do this.
