@@ -18,7 +18,7 @@
     overflow: hidden;
 }
 
-.blur-loader .image-thumb img {
+.image-bloom.blur-loader .image-thumb img {
     display: block;
     opacity: 1;
     transition: opacity 0.5s ease-out;
