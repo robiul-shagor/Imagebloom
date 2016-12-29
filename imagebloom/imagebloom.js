@@ -87,11 +87,11 @@
 
             // Option Settings For this plug-in class name
             if (getOptions.blurEffect === true) {
-                addNewClass(el.parentNode.parentNode, 'blur-loader-added');
+                addNewClass(el.parentNode.parentNode, 'bloom-blur-loader');
 
             } else {
-                addNewClass(el.parentNode.parentNode, 'image-loader');
-                el.parentNode.parentNode.classList.remove("blur-loader")
+                addNewClass(el.parentNode.parentNode, 'bloom-image-loader');
+                el.parentNode.parentNode.classList.remove("bloom-blur-loader")
                 el.src = getOptions.imageSrc;
             }
 

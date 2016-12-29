@@ -23,8 +23,8 @@ Look this no image optimized issue remain. It's best for you and your user.
 2. Set markup 
 
   ```html
-  <figure class="image-bloom blur-loader">
-  	<div class="image-thumb">	
+  <figure class="image-bloom bloom-blur-loader">
+  	<div class="bloom-image-thumb">	
   		<img src="small-image-path" data-thumb-url="original-image-path" data-full-width="950" data-full-height="633" alt="">
   	</div><!-- /.image-thumb -->
   </figure>
