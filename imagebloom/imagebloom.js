@@ -91,8 +91,11 @@
 
             } else {
                 addNewClass(el.parentNode.parentNode, 'bloom-image-loader');
-                el.parentNode.parentNode.classList.remove("bloom-blur-loader")
+                el.parentNode.parentNode.classList.remove("bloom-blur-loader");
                 el.src = getOptions.imageSrc;
+                setTimeout(function(){
+                    el.style.opacity = "1";
+                },5);
             }
 
             // If no thumbnail Found
